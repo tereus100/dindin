@@ -1,0 +1,269 @@
+* {
+  margin:0 ;
+  padding:0;
+  font-family: 'Ubuntu', sans-serif ,arial;
+  
+}
+.dindin-titulo {
+  font-size:40px;
+}
+.imagem {
+  padding-left: 60px;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    height: 127px;
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    display:flex;  
+    
+    align-items: center;
+}
+article {
+  width: 100%;
+  margin: 0px 20px 0px 0px;
+  display: flex;
+  justify-content: end;
+
+}
+ul {
+  display: flex;
+
+}
+li {
+list-style:none;
+}
+a {
+  text-decoration:none;
+}
+
+.texto {
+
+    padding-left:15px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+   color: #FFFFFF;
+}
+a {
+    margin-right:40px;
+    display:flex;
+    justify-content: end;
+    color: #FFFFFF;
+    font-size:30px;
+    padding-left:20px;
+}
+@media  (max-width: 500px) {
+  header ,article , ul ,li ,a {
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: center;
+    font-size: 22px;
+  }
+}
+@media  (max-width: 500px) {
+   header {
+    flex-wrap:wrap;
+    }
+
+}
+footer {
+  width:100%;
+  height:auto;
+ background: #2E948A;
+ color:white;
+ 
+}
+#footer {
+ width: 100%;
+ height: 212px;
+ margin:0 auto;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.imagem {
+ display: flex;
+ 
+ height: 101px;
+}
+.dindin {
+font-size: 55px;
+}
+.cursos {
+ font-size:10px;
+ display:block;
+
+}
+ol li a {
+ font-size:20px;
+ padding-bottom: 10px;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+.links {
+ display:block;
+}
+.link {
+ width:200px;
+ height: 48px;
+ font-size:20px;
+ border:solid 2px white;
+ border-radius:50px;
+ display: flex;
+ justify-content: center;
+ align-items:center;
+ margin-bottom: 12px;
+
+}
+@media (max-width:720px) {
+ #footer{
+   width: 300px;
+   margin:0 auto;
+   height: 320px;
+  padding-top: 20px;
+   display:block;
+   flex-wrap: wrap;
+   
+ }
+}
+.container ,.conteudo {
+ margin-bottom: 20px;
+}
+
+.cursos {
+ display: flex;
+ justify-content:center;
+}
+.link .links ,ol, li, a {
+ 
+ justify-content:center;
+ align-items: center;
+ margin: 0 auto;
+}
+@media (max-width:720px){
+  .link .links ,ol, li, a {
+    display:flex ;
+    justify-content:center;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+section {
+  margin:0 auto;
+  width:80%;
+  height:auto;
+ 
+}
+.section {
+  width: 100%;
+  height:auto;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  
+
+}
+.container {
+  width:40%;
+
+}
+.texto1 {
+  font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 63px;
+color: #FF4081;
+
+}
+.texto2 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  
+}
+main {
+  width: 100%;
+  height: auto;
+  background: #F7F7F7;
+  
+}
+.main {
+  width: 100%;
+  height:auto;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.container1 {
+  width:425px;
+
+  
+}
+.video {
+  background-image: url("imagens/Polygon.png"),url("imagens/Ellipse.png");
+  background-repeat: no-repeat;
+  background-position:  center; 
+  width: 462px;
+height: 261px;
+border: 3px solid #8E8E8E;
+box-sizing: border-box;
+}
+.dividir {
+  width:90%;
+  margin-top:60px;
+  margin-bottom:60px;
+  height:5px;
+  background: #C4C4C4;
+}
+@media (max-width:768px) {
+  .texto1 {
+    width: 100%;
+    text-align:center;
+    margin: 0 auto;
+    font-size:34px;
+  }
+  .texto2 {
+    text-align: center;
+    width:380px;
+    margin: 0 auto;
+    font-size:20px;
+    
+  }
+  .video {
+    width: 350px;
+  }
+  section ,.section ,.container {
+    width:380px;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  }
+}
+@media (max-width:768px){
+  .imagem {
+    width: 100%;
+    margin-right: 60px;
+    display:flex;
+    justify-content: center;
+  }
+}
+
